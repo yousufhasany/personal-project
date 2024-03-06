@@ -1,0 +1,64 @@
+h2{
+    color: deeppink;
+}
+body{
+    margin: 0%;
+    font-family: 'Nunito', sans-serif;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.header-bg{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.half-width img{
+    width: 80%;
+
+}
+section{
+    height: 500px;
+}
+.Link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(deeppink,tomato);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.biography-bg{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+    padding: 5px;
+}
+.half-width_image{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+#align{
+    text-align: center;
+}
+.last{
+    text-align: center;
+    background-color: deeppink;
+    padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+}
